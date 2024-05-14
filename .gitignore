@@ -2,3 +2,4 @@
 .DS_Store
 .git
 php/api-config.php
+php/config.php

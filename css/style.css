@@ -1,0 +1,133 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .container {
+    background-color: #EB4B5E;
+    padding: 20px;
+}
+
+footer .container {
+    background-color: #EB4B5E;
+    padding: 20px;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+p {
+    margin: 20px 10%;
+}
+
+#mostPlayedLastYearSection p:first-child {
+    margin-bottom: 0; /* Behält die ursprüngliche untere Marge für das erste <p>-Element bei */
+    margin-top: 0;
+}
+
+#mostPlayedLastYearSection p:last-child {
+    margin-top: 0; /* Setzt die obere Marge für das letzte <p>-Element auf null zurück */
+    margin-bottom: 40px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#buttons button {
+    flex-grow: 1;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #EB4B5E;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buttons button:first-child {
+    margin-right: 5%; /* Fügt rechts margin nur zum ersten Button hinzu */
+}
+
+#buttons button:last-child {
+    margin-left: 5%; /* Fügt links margin nur zum letzten Button hinzu */
+}
+
+#buttons button:hover {
+    background-color: #bc2336;
+}
+
+/* Wenn die Bildschirmbreite weniger als 480px beträgt */
+@media only screen and (max-width: 480px) {
+    #buttons {
+        flex-direction: column; /* Ändert die Ausrichtung auf Spalten */
+        align-items: center; /* Zentriert die Elemente horizontal */
+    }
+
+    #buttons button {
+        margin: 1% auto; /* Fügt einen Abstand von 5% zu den Rändern hinzu und zentriert vertikal */
+        width: 90%; /* Setzt die Breite auf 90%, um Platz für die Margins zu lassen */
+    }
+
+    #buttons button:first-child {
+        margin-right: auto; /* Setzt die rechte Margin auf auto, um den Abstand zum rechten Rand zu erreichen */
+    }
+
+    #buttons button:last-child {
+        margin-left: auto; /* Setzt die linke Margin auf auto, um den Abstand zum linken Rand zu erreichen */
+    }
+}
+
+#chartWrapper {
+    text-align: center;
+}
+
+#topTenChart {
+    width: 100%; /* Breite auf 100% setzen */
+    height: 100%; /* Höhe auf 100% setzen */
+    display: block; /* Element als Blockelement anzeigen */
+    padding: 20px;
+}
+
+.chart-container {
+    position: relative; /* Relative Positionierung für den Container */
+    width: 100%;
+    padding-top: 50%; /* Platzhalter für die Höhe, um den Container zu erweitern */
+}
+
+.chart-container canvas {
+    position: absolute; /* Absolute Positionierung für das Canvas-Element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Masters</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <h1>Die 10 meistgespielten Songs der Schweiz</h1>
+            <h2>Anhand des Beispiels SRF3</h2>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container">
+            <div id="chartContainer">
+                <p>Wie oft hast du dich schon gefragt, ob du das aktuelle Lied im Radio an diesem Tag nicht schon gehört hast? Wie oft hast du dich genervt, weil ein Lied zig Mal gespielt wurde?
+                    In unserer exklusiven Datenanalyse zeigen wir dir die konkreten Zahlen zu diesen Fragen. Anhand des Beispiels SRF3 siehst du, welche Songs am häufigsten gespielt werden und wie oft.
+                    <br><br>
+                </p>
+                <!-- Neuer Abschnitt für den meistgespielten Song des letzten Jahres -->
+                <div id="mostPlayedLastYearSection">
+                    <p id="mostPlayedLastYear"></p>
+                    <p id="songDurationText"></p>
+                </div>
+    
+                <div id="buttons">
+                    <button id="last24hButton">Top 10 Songs der letzten 24 Stunden</button>
+                    <button id="lastMonthButton">Top 10 Songs des letzten Monats</button>
+                    <button id="lastYearButton">Top 10 Songs des letzten Jahres</button>
+                </div>
+                <div id="chartWrapper" class="chart-container">
+                    <canvas id="topTenChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    <footer id="footer">
+        <div class="container"></div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

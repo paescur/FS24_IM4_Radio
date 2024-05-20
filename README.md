@@ -2,7 +2,7 @@
  
 Kurzbeschreibung des Projekts
 
-Das Projekt analysiert die meistgespielten Songs auf einem Schweizer Radiosender, basierend auf Daten von SRF3. Es präsentiert die 10 Top-Songs der letzten 24 Stunden, des letzten Monats und des letzten Jahres in interaktiven Diagrammen. Die Daten werden von einer PHP-Schnittstelle abgerufen und mit JavaScript und Chart.js visualisiert. Zusätzlich wird der meistgespielte Song des letzten Jahres einzeln angezeigt, mit der Angabe in Sekunden, wie lange dieser Song insgesamt auf SRF3 lief.
+Das Projekt analysiert die meistgespielten Songs auf einem Schweizer Radiosender, basierend auf Daten von SRF3. Es präsentiert die 10 Top-Songs der letzten 24 Stunden, des letzten Monats und des letzten Jahres in interaktiven Diagrammen. Die Daten werden von einer PHP-Schnittstelle abgerufen und mit JavaScript und Chart.js visualisiert. Zusätzlich wird der meistgespielte Song des letzten Jahres einzeln angezeigt, mit der Angabe in Sekunden, wie lange dieser Song insgesamt auf SRF3 lief. Dazu haben wir zuerst eine Figma Vorlage gezimmert und danach die Technische Umsetzung gemacht.
 
 Schwierigkeiten / Learnings
 
@@ -15,7 +15,9 @@ chart.js
 Eine weitere Schwierigkeit war es, die Diagramme von chart.js auf unsere Bedürfnisse anzupassen. Grundsätzlich ist es sehr einfach, Diagramme einzubauen. Das Gestalten nach eigenen Bedürfnissen ist da aus unserer Sicht schon deutlich anspruchsvoller. Ein Beispiel: Bei einer zu schmalen Bildschirmbreite werden beim horizontalen Balkendiagramm nur fünf der zehn Songlieder angezeigt. Dieses Problem konnten wir nicht lösen.
 
 Figma
+Eine Schwierigkeit war, dass ganze responsiv zu machen. Schliesslich haben wir eine Lösung gefunden, indem wir eine Desktopversion und eine Mobile Version gestaltet haben. Eine weitere Schweirigkeit war die Grafiken auf der Desktop- und auf der Mobile-Version schon darzustellen.
+Ein Learning ist, dass Videos auf Youtube sehr hilfreich sind. Dies hat bei beiden Schwierigkeiten sehr geholfen.
 
 Benutzte Ressourcen
 
-Die verwendeten Daten stammen aus der API von SRF und werden in einer MySQL-Datenbank abgespeichert. Die Visualisierung der Daten wird mit chart.js umgesetzt. Für das Entwickeln des Codes wurde ChatGPT als Hilfe benutzt.
+Die verwendeten Daten stammen aus der API von SRF und werden in einer MySQL-Datenbank abgespeichert. Die Visualisierung der Daten wird mit chart.js umgesetzt. Für das Entwickeln des Codes wurde ChatGPT als Hilfe benutzt. Für die Vorlage der Umsetzung haben wir Figma benutzt.

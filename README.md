@@ -15,7 +15,7 @@ chart.js
 Eine weitere Schwierigkeit war es, die Diagramme von chart.js auf unsere Bedürfnisse anzupassen. Grundsätzlich ist es sehr einfach, Diagramme einzubauen. Das Gestalten nach eigenen Bedürfnissen ist da aus unserer Sicht schon deutlich anspruchsvoller. Ein Beispiel: Bei einer zu schmalen Bildschirmbreite werden beim horizontalen Balkendiagramm nur fünf der zehn Songlieder angezeigt. Dieses Problem konnten wir nicht lösen.
 
 Figma
-Eine Schwierigkeit war, dass ganze responsiv zu machen. Schliesslich haben wir eine Lösung gefunden, indem wir eine Desktopversion und eine Mobile Version gestaltet haben. Eine weitere Schweirigkeit war die Grafiken auf der Desktop- und auf der Mobile-Version schon darzustellen.
+Eine Schwierigkeit war, das Ganze responsiv zu machen. Schliesslich haben wir eine Lösung gefunden, indem wir eine Desktopversion und eine Mobile Version gestaltet haben. Eine weitere Schwierigkeit war es, die Grafiken auf der Desktop- und auf der Mobile-Version schön darzustellen.
 Ein Learning ist, dass Videos auf Youtube sehr hilfreich sind. Dies hat bei beiden Schwierigkeiten sehr geholfen.
 
 Benutzte Ressourcen
